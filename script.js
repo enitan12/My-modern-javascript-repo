@@ -1,19 +1,21 @@
-/*
-Importing module
-import { addToCart, totalPrice as price, tq } from './shoppingCart.js';
-addToCart('bread', 5);
-console.log(price, tq);
+////////////////////////////////////////////////////
+// EXPORTING AND IMPORTING MODULE
 
-console.log('Importing module');
-console.log(shippingCost);
+// Importing module
+// import { addToCart, totalPrice as price, tq } from './shoppingCart.js';
+// addToCart('bread', 5);
+// console.log(price, tq);
 
-import * as ShoppingCart from './shoppingCart.js';
-ShoppingCart.addToCart('bread', 5);
-console.log(ShoppingCart.totalPrice);
+// console.log('Importing module');
+// console.log(shippingCost);
 
-import add, { addToCart, totalPrice as price, tq } from './shoppingCart.js';
-add('pizza', 2);
-console.log(price);
+// import * as ShoppingCart from './shoppingCart.js';
+// ShoppingCart.addToCart('bread', 5);
+// console.log(ShoppingCart.totalPrice);
+
+// import add, { addToCart, totalPrice as price, tq } from './shoppingCart.js';
+// add('pizza', 2);
+// console.log(price);
 
 import add, { cart } from './shoppingCart.js';
 add('pizza', 2);
@@ -22,6 +24,8 @@ add('spinach', 4);
 
 console.log(cart);
 
+/* 
+////////////////////////////////////////////////
 const ShoppingCart2 = (function () {
   const cart = [];
   const shippingCost = 10;
@@ -62,8 +66,10 @@ export.addToCart = function (product, quantity) {
 
 // Import
 const {addToCart} = require('./shoppingCart.js')
-*/
+/*
 
+//////////////////////////////////////////////////
+// Introduction to NPM
 import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
 
 const state = {
