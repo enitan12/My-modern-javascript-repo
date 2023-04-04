@@ -66,7 +66,7 @@ export.addToCart = function (product, quantity) {
 
 // Import
 const {addToCart} = require('./shoppingCart.js')
-/*
+*/
 
 //////////////////////////////////////////////////
 // Introduction to NPM
